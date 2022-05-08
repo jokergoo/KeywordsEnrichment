@@ -1,6 +1,6 @@
 ## Example
 
-```{r}
+```r
 load(url("https://github.com/jokergoo/KeywordsEnrichment/raw/master/sig_mat.RData"))
 expr = t(scale(t(sig_mat)))
 km = kmeans(expr, centers = 3)$cluster
