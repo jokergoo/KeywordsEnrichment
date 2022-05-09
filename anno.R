@@ -5,7 +5,7 @@ library(cola)
 library(simplifyEnrichment)
 
 anno_GO_keywords = function(split, genes, id_mapping = NULL, org_db = "org.Hs.eg.db",
-	ora_fun = function(x) clusterProfiler::enrichGO(x, OrgDb = "org.Hs.eg.db", ont = "BP", pvalueCutoff = 1), 
+	ora_fun = function(x) clusterProfiler::enrichGO(x, OrgDb = org_db, ont = "BP", pvalueCutoff = 1), 
 	padj_cutoff = 0.05, go_id_column = NULL, padj_column = NULL, verbose = TRUE, ...) {
 
 	if(!is.null(id_mapping)) {
