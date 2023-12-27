@@ -1,3 +1,5 @@
+This repo will grow into a complete R package.
+
 ## Example
 
 ```r
