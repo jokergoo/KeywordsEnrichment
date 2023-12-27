@@ -1,4 +1,59 @@
 inst/extdata/english*
 inst/extdata/text_annotated.rds
 inst/extdata/two_words.csv
+.DS_Store
+
+# History files
+.Rhistory
+
+# Example code in package build process
+*-Ex.R
+
+# R data files from past sessions
+.Rdata
+
+# RStudio files
+.Rproj.user/
+
+.DS_Store
+
+
+src/*.o
+src/*.so
+man/temp__*
+/doc/
+./docs/*
+/Meta/
+
+
+.renviron
+.rprofile
+.rproj
+.rproj.user
+.rhistory
+.rapp.history
+.o
+.sl
+.so
+.dylib
+.a
+.dll
+.def
+.ds_store
+unsrturl.bst
+.log
+.aux
+.backups
+.cproject
+.directory
+.dropbox
+.exrc
+.gdb.history
+.gitattributes
+.gitmodules
+.hgtags
+.project
+.seed
+.settings
+.tm_properties
 
