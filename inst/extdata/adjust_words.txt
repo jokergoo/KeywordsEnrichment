@@ -1,0 +1,7 @@
+homologue	homolog
+SubUnit	subunit
+miRNA	microRNA
+AKT	akt
+BCL	Bcl
+ac	Ac
+kB	kb
